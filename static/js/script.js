@@ -54,7 +54,7 @@ const createChatLi = (message, className) => {
 };
 
 const generateResponse = (chatElement, typingInterval) => {
-    const SERVER_URL = "https://yumacollec.onrender.com//get-response";
+    const SERVER_URL = "https://yumacollection.azurewebsites.net//get-response";
     const userId = getUserId();
 
     fetch(SERVER_URL, {
