@@ -27,7 +27,7 @@
           <meta name="viewport" content="width=device-width, initial-scale=1.0">
           <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
           <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,1,0" />
-          <script src="{{ url_for('static', filename='https://yumacollec.onrender.com/js/script.js') }}" defer></script> <!-- Include external JavaScript file -->
+          <script src="{{ url_for('static', filename='https://yumacollection.azurewebsites.net/js/script.js') }}" defer></script> <!-- Include external JavaScript file -->
           <style>
       
             /* Other styles remain unchanged */
@@ -40,7 +40,7 @@
           </button>
           <div class="chatbot">
             <header>
-              <img src="https://yumacollec.onrender.com/static/images/test.png" alt="Chatbot Icon" class="header-img" style="width: 320px; height: fit-content; margin-right: 10px; margin-left: 45px; margin-top: 20px;">
+              <img src="yumacollection.azurewebsites.net/static/images/test.png" alt="Chatbot Icon" class="header-img" style="width: 320px; height: fit-content; margin-right: 10px; margin-left: 45px; margin-top: 20px;">
               <span class="close-btn material-symbols-outlined">close</span>
             </header>
             <ul class="chatbox">
@@ -56,7 +56,7 @@
               <span id="send-btn" class="material-symbols-rounded">send</span>
             </div>
           </div>
-          <script src="https://yumacollec.onrender.com/static/js/script.js"></script> <!-- Include inline JavaScript -->
+          <script src="https://yumacollection.azurewebsites.net//static/js/script.js"></script> <!-- Include inline JavaScript -->
         </body>
       </html>`;
   
@@ -65,8 +65,8 @@
     }
   
     // Load the chatbot assets
-    loadCSS('https://yumacollec.onrender.com/static/style.css');
-    loadJS('https://yumacollec.onrender.com/static/js/script.js');
+    loadCSS('https://yumacollection.azurewebsites.net/static/style.css');
+    loadJS('https://yumacollection.azurewebsites.net/static/js/script.js');
   
     // Inject the chatbot HTML into the host page
     injectChatbot();
